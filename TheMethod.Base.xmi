@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" name="TheMethod" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" name="Architecture" visibility="public">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_8C5F5A6F_2B14_4fba_93EE_9461BA9909B1" name="Assemblies" visibility="public">
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" name="Company" visibility="public">
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_A40069A1_D18E_458b_AB73_34C3C3A3D088" name="Client" visibility="public"/>
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_07869B0F_8B53_4f56_9F96_D40BC7A2DDCE" name="Contract" visibility="public"/>
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_C699EA7A_3101_438d_A545_8B6F215B328B" name="Engine" visibility="public"/>
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_369550EB_272A_423d_9C5F_9D79C6293895" name="Infrastructure" visibility="public"/>
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_2F819D29_40C4_4f10_BDD3_07455636B79B" name="Manager" visibility="public"/>
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_CD12BBC8_5826_40e1_9C1F_7CF85EB64F7C" name="ResourceAccess" visibility="public"/>
+						<packagedElement xmi:type="uml:Package" xmi:id="EAPK_7F9021D6_6254_420e_ABA6_F2CB04C365EA" name="Utility" visibility="public"/>
+					</packagedElement>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_824043B5_328E_4f36_A62B_EF258C0493BC" name="Authentication Boundaries" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_4B4DBB51_AC41_4110_AB9D_7EEDEA70CABE" name="Authorization Boundaries" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_9711E31A_EE70_4883_8968_A5F6431EFD39" name="Call Chains" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_4697EEFC_7DE5_4444_A5D4_FAA4B8E6C27C" name="Identity Boundaries" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_236C38CB_1DC4_4244_8073_81E904CCA4D7" name="Logical Threads" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_0AB0C1D0_42CD_4498_854D_71958E8916AF" name="Process Boundaries" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_835C5EC3_E230_4aab_B923_002D3C575F70" name="StaticTiers" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_647D5389_122B_4369_A0A7_D553C26322D7" name="Transaction Boundaries" visibility="public"/>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_227F9F6F_1E46_4a51_8B0D_51240DBDF759" name="WCF Services" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_D8A13AD4_5D42_45b7_9989_09C338D0ED01" name="global::" visibility="public">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" name="Company" visibility="public">
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_1FFBB65C_58DB_4a37_8F1D_43D25B51A408" name="Client" visibility="public"/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_28B6B727_F60B_4963_9977_8B0EA296D0E5" name="Contract" visibility="public"/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_529A1910_3AEA_4024_9A3C_9732BFEA3BA6" name="Engine" visibility="public"/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_FA3D31FE_7421_426d_A109_4B434D695454" name="Infrastructure" visibility="public"/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_5F58C248_04A5_4301_9CEA_2BA3E23AD614" name="Manager" visibility="public"/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_46339762_B6ED_4d98_92BC_EE771D53F1AD" name="ResourceAccess" visibility="public"/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_436D2737_71CD_4e38_80D8_A77B7871A893" name="Utility" visibility="public"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_400433DA_41B3_4eda_89AF_DB1B50720520" name="System" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_4F8C7270_8A0E_4530_86F1_5DC9EAA08A6A" name="High Level Design" visibility="public"/>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_8868FA8B_A3A6_4d08_AC31_03564F745ECA" name="Low Level Design" visibility="public"/>
+		</packagedElement>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" xmi:type="uml:Package" name="TheMethod" scope="public">
+				<model package2="EAID_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" tpos="0" ea_localid="3" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project created="2012-04-17 00:00:00" modified="2016-02-07 09:01:20"/>
+				<code/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0"/>
+				<packageproperties/>
+				<paths/>
+				<times created="2012-04-17 00:00:00" modified="2016-02-07 09:01:20" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;"/>
+			</element>
+			<element xmi:idref="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" xmi:type="uml:Package" name="Architecture" scope="public">
+				<model package2="EAID_67B616B3_B439_43aa_B18A_4582FD029540" package="EAPK_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" tpos="0" ea_localid="4" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:02:54" modified="2016-02-07 09:04:23" complexity="1" status="Proposed"/>
+				<code/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="TheMethod"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:02:54" modified="2016-02-07 09:04:24" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+			<element xmi:idref="EAPK_8C5F5A6F_2B14_4fba_93EE_9461BA9909B1" xmi:type="uml:Package" name="Assemblies" scope="public">
+				<model package2="EAID_8C5F5A6F_2B14_4fba_93EE_9461BA9909B1" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="5" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package document the assignment of services to deployable assemblies." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:33:40" modified="2016-02-07 09:34:28" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:33:40" modified="2016-02-07 09:34:29" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" xmi:type="uml:Package" name="Company" scope="public">
+				<model package2="EAID_3FA22399_9F94_4256_A644_5636D70FFC43" package="EAPK_8C5F5A6F_2B14_4fba_93EE_9461BA9909B1" tpos="0" ea_localid="6" ea_eleType="package"/>
+				<properties documentation="The root of a namespace for a company. " isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-07 09:15:07" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Assemblies"/>
+				<packageproperties version="1.0" tpos="0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:15:07" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_A40069A1_D18E_458b_AB73_34C3C3A3D088" xmi:type="uml:Package" name="Client" scope="public">
+				<model package2="EAID_A40069A1_D18E_458b_AB73_34C3C3A3D088" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="7" ea_eleType="package"/>
+				<properties documentation="Members of this namespace belong in the Client layer of the architecture." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:20:34" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_07869B0F_8B53_4f56_9F96_D40BC7A2DDCE" xmi:type="uml:Package" name="Contract" scope="public">
+				<model package2="EAID_07869B0F_8B53_4f56_9F96_D40BC7A2DDCE" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="8" ea_eleType="package"/>
+				<properties documentation="This namespace contains ServiceContracts, DataContracts, and interfaces that may be accessed from any layer." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:21:56" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_C699EA7A_3101_438d_A545_8B6F215B328B" xmi:type="uml:Package" name="Engine" scope="public">
+				<model package2="EAID_C699EA7A_3101_438d_A545_8B6F215B328B" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="9" ea_eleType="package"/>
+				<properties documentation="This namespace contains Engines, the architectural elements that encapsulate business rules." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:22:45" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_369550EB_272A_423d_9C5F_9D79C6293895" xmi:type="uml:Package" name="Infrastructure" scope="public">
+				<model package2="EAID_369550EB_272A_423d_9C5F_9D79C6293895" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="10" ea_eleType="package"/>
+				<properties documentation="This namespace contains software artifacts with which the other layers are implemented. Individual entities may be deployable within any layer." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:24:09" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_2F819D29_40C4_4f10_BDD3_07455636B79B" xmi:type="uml:Package" name="Manager" scope="public">
+				<model package2="EAID_2F819D29_40C4_4f10_BDD3_07455636B79B" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="11" ea_eleType="package"/>
+				<properties documentation="This namespace contains components that orchestrate workflows for the realization of Client use cases. " isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:25:43" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_CD12BBC8_5826_40e1_9C1F_7CF85EB64F7C" xmi:type="uml:Package" name="ResourceAccess" scope="public">
+				<model package2="EAID_CD12BBC8_5826_40e1_9C1F_7CF85EB64F7C" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="12" ea_eleType="package"/>
+				<properties documentation="This namespace encapsulates the mechanics of retrieving data from and providing data to an external resource (e.g. a database). " isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:27:29" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_7F9021D6_6254_420e_ABA6_F2CB04C365EA" xmi:type="uml:Package" name="Utility" scope="public">
+				<model package2="EAID_7F9021D6_6254_420e_ABA6_F2CB04C365EA" package="EAPK_3FA22399_9F94_4256_A644_5636D70FFC43" tpos="0" ea_localid="13" ea_eleType="package"/>
+				<properties documentation="Components in this namespace may be accessed from any layer in the architecture." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:50" modified="2016-02-09 11:58:50" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:50" modified="2016-02-07 09:28:46" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_824043B5_328E_4f36_A62B_EF258C0493BC" xmi:type="uml:Package" name="Authentication Boundaries" scope="public">
+				<model package2="EAID_824043B5_328E_4f36_A62B_EF258C0493BC" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="14" ea_eleType="package"/>
+				<properties documentation="Diagrams in this section illustrate at which transitions the calling identity must be authenticated." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:40:07" modified="2016-02-07 09:41:00" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:40:07" modified="2016-02-07 09:41:01" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_4B4DBB51_AC41_4110_AB9D_7EEDEA70CABE" xmi:type="uml:Package" name="Authorization Boundaries" scope="public">
+				<model package2="EAID_4B4DBB51_AC41_4110_AB9D_7EEDEA70CABE" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="15" ea_eleType="package"/>
+				<properties documentation="Diagrams in this section document the transitions in the architecture at which the identity must be authenticated." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:41:48" modified="2016-02-07 18:59:45" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:41:48" modified="2016-02-07 18:59:45" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_9711E31A_EE70_4883_8968_A5F6431EFD39" xmi:type="uml:Package" name="Call Chains" scope="public">
+				<model package2="EAID_9711E31A_EE70_4883_8968_A5F6431EFD39" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="16" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package describe the conceptual interactions between services to implement individual use cases." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:31:40" modified="2016-02-07 09:32:44" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:31:40" modified="2016-02-07 09:32:48" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_4697EEFC_7DE5_4444_A5D4_FAA4B8E6C27C" xmi:type="uml:Package" name="Identity Boundaries" scope="public">
+				<model package2="EAID_4697EEFC_7DE5_4444_A5D4_FAA4B8E6C27C" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="17" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package illustrate the boundaries of identities under which the services execute." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:38:42" modified="2016-02-07 09:39:31" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:38:42" modified="2016-02-07 09:39:33" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_236C38CB_1DC4_4244_8073_81E904CCA4D7" xmi:type="uml:Package" name="Logical Threads" scope="public">
+				<model package2="EAID_236C38CB_1DC4_4244_8073_81E904CCA4D7" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="18" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package illustrate logical threads of execution." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:45:50" modified="2016-02-07 09:46:15" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:45:50" modified="2016-02-07 09:46:16" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_0AB0C1D0_42CD_4498_854D_71958E8916AF" xmi:type="uml:Package" name="Process Boundaries" scope="public">
+				<model package2="EAID_0AB0C1D0_42CD_4498_854D_71958E8916AF" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="19" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package illustrate the process boundaries in which services are encapsulated." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:36:39" modified="2016-02-07 09:38:04" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:36:39" modified="2016-02-07 09:38:05" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_835C5EC3_E230_4aab_B923_002D3C575F70" xmi:type="uml:Package" name="StaticTiers" scope="public">
+				<model package2="EAID_835C5EC3_E230_4aab_B923_002D3C575F70" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="20" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package describe services and their assignments within the architectural tiers." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:29:41" modified="2016-02-07 09:31:00" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:29:41" modified="2016-02-07 09:31:02" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_647D5389_122B_4369_A0A7_D553C26322D7" xmi:type="uml:Package" name="Transaction Boundaries" scope="public">
+				<model package2="EAID_647D5389_122B_4369_A0A7_D553C26322D7" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="21" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package document architectural areas that must be scoped by a transaction." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:44:39" modified="2016-02-07 09:45:17" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:44:39" modified="2016-02-07 09:45:17" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_227F9F6F_1E46_4a51_8B0D_51240DBDF759" xmi:type="uml:Package" name="WCF Services" scope="public">
+				<model package2="EAID_227F9F6F_1E46_4a51_8B0D_51240DBDF759" package="EAPK_67B616B3_B439_43aa_B18A_4582FD029540" tpos="0" ea_localid="22" ea_eleType="package"/>
+				<properties documentation="Diagrams in this package document individual WCF services" isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:35:43" modified="2016-02-07 09:36:12" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Architecture"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:35:43" modified="2016-02-07 09:36:13" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_D8A13AD4_5D42_45b7_9989_09C338D0ED01" xmi:type="uml:Package" name="global::" scope="public">
+				<model package2="EAID_D8A13AD4_5D42_45b7_9989_09C338D0ED01" package="EAPK_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" tpos="0" ea_localid="23" ea_eleType="package"/>
+				<properties documentation="Root namespace for the default language of this model. Each package beneath this node represents a new segment of the global namespace." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:01:38" modified="2016-02-07 09:19:20" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="TheMethod"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:01:38" modified="2016-02-07 09:19:21" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isnamespace="1" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+			<element xmi:idref="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" xmi:type="uml:Package" name="Company" scope="public">
+				<model package2="EAID_52DF3425_A6C4_49db_9B9F_AE1225903E14" package="EAPK_D8A13AD4_5D42_45b7_9989_09C338D0ED01" tpos="0" ea_localid="24" ea_eleType="package"/>
+				<properties documentation="The root of a namespace for a company. " isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:13:10" modified="2016-02-07 09:15:06" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="global::"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:13:10" modified="2016-02-07 09:15:07" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_1FFBB65C_58DB_4a37_8F1D_43D25B51A408" xmi:type="uml:Package" name="Client" scope="public">
+				<model package2="EAID_1FFBB65C_58DB_4a37_8F1D_43D25B51A408" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="25" ea_eleType="package"/>
+				<properties documentation="Members of this namespace belong in the Client layer of the architecture." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:15:23" modified="2016-02-07 09:20:33" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:15:23" modified="2016-02-07 09:20:34" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_28B6B727_F60B_4963_9977_8B0EA296D0E5" xmi:type="uml:Package" name="Contract" scope="public">
+				<model package2="EAID_28B6B727_F60B_4963_9977_8B0EA296D0E5" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="26" ea_eleType="package"/>
+				<properties documentation="This namespace contains ServiceContracts, DataContracts, and interfaces that may be accessed from any layer." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:17:11" modified="2016-02-07 09:21:55" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:17:11" modified="2016-02-07 09:21:56" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_529A1910_3AEA_4024_9A3C_9732BFEA3BA6" xmi:type="uml:Package" name="Engine" scope="public">
+				<model package2="EAID_529A1910_3AEA_4024_9A3C_9732BFEA3BA6" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="27" ea_eleType="package"/>
+				<properties documentation="This namespace contains Engines, the architectural elements that encapsulate business rules." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:16:10" modified="2016-02-07 09:22:43" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:16:10" modified="2016-02-07 09:22:45" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_FA3D31FE_7421_426d_A109_4B434D695454" xmi:type="uml:Package" name="Infrastructure" scope="public">
+				<model package2="EAID_FA3D31FE_7421_426d_A109_4B434D695454" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="28" ea_eleType="package"/>
+				<properties documentation="This namespace contains software artifacts with which the other layers are implemented. Individual entities may be deployable within any layer." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:17:03" modified="2016-02-07 09:24:07" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:17:03" modified="2016-02-07 09:24:09" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_5F58C248_04A5_4301_9CEA_2BA3E23AD614" xmi:type="uml:Package" name="Manager" scope="public">
+				<model package2="EAID_5F58C248_04A5_4301_9CEA_2BA3E23AD614" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="29" ea_eleType="package"/>
+				<properties documentation="This namespace contains components that orchestrate workflows for the realization of Client use cases. " isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:15:36" modified="2016-02-07 09:25:41" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:15:36" modified="2016-02-07 09:25:43" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_46339762_B6ED_4d98_92BC_EE771D53F1AD" xmi:type="uml:Package" name="ResourceAccess" scope="public">
+				<model package2="EAID_46339762_B6ED_4d98_92BC_EE771D53F1AD" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="30" ea_eleType="package"/>
+				<properties documentation="This namespace encapsulates the mechanics of retrieving data from and providing data to an external resource (e.g. a database). " isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:16:20" modified="2016-02-07 09:27:28" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:16:20" modified="2016-02-07 09:27:29" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_436D2737_71CD_4e38_80D8_A77B7871A893" xmi:type="uml:Package" name="Utility" scope="public">
+				<model package2="EAID_436D2737_71CD_4e38_80D8_A77B7871A893" package="EAPK_52DF3425_A6C4_49db_9B9F_AE1225903E14" tpos="0" ea_localid="31" ea_eleType="package"/>
+				<properties documentation="Components in this namespace may be accessed from any layer in the architecture." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-07 09:16:34" modified="2016-02-07 09:28:46" complexity="1" status="Proposed"/>
+				<code gentype="C#"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Company"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-07 09:16:34" modified="2016-02-07 09:28:46" lastloaddate="2016-02-09 11:37:17" lastsavedate="2016-02-09 11:37:17"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_400433DA_41B3_4eda_89AF_DB1B50720520" xmi:type="uml:Package" name="System" scope="public">
+				<model package2="EAID_400433DA_41B3_4eda_89AF_DB1B50720520" package="EAPK_D8A13AD4_5D42_45b7_9989_09C338D0ED01" tpos="0" ea_localid="34" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="TheDoctor" version="1.0" phase="1.0" created="2016-12-20 09:48:40" modified="2016-12-20 09:48:40" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="global::"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-12-20 09:48:40" modified="2016-12-20 09:48:40"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_4F8C7270_8A0E_4530_86F1_5DC9EAA08A6A" xmi:type="uml:Package" name="High Level Design" scope="public">
+				<model package2="EAID_4F8C7270_8A0E_4530_86F1_5DC9EAA08A6A" package="EAPK_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" tpos="0" ea_localid="32" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:57:24" modified="2016-02-09 11:57:24" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="TheMethod"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:57:24" modified="2016-02-09 11:57:24" lastloaddate="2016-12-20 09:48:14" lastsavedate="2016-12-20 09:48:14"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+			<element xmi:idref="EAPK_8868FA8B_A3A6_4d08_AC31_03564F745ECA" xmi:type="uml:Package" name="Low Level Design" scope="public">
+				<model package2="EAID_8868FA8B_A3A6_4d08_AC31_03564F745ECA" package="EAPK_E1FEA9EB_ED9E_4222_83F2_A4668991F98E" tpos="0" ea_localid="33" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="DKILLIAN" version="1.0" phase="1.0" created="2016-02-09 11:58:19" modified="2016-02-09 11:58:19" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="TheMethod"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2016-02-09 11:58:19" modified="2016-02-09 11:58:19" lastloaddate="2016-12-20 09:48:14" lastsavedate="2016-12-20 09:48:14"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+		</elements>
+		<connectors/>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles/>
+		<diagrams/>
+	</xmi:Extension>
+</xmi:XMI>
