@@ -3,25 +3,12 @@
 			<Documentation id="CEFEFC1D-A" name="TheMethod" version="1.0" notes="TheMethod"/>
 			<Content>
 				<Stereotypes>
-					<Stereotype name="Assembly" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHhaSUhq+D3FFgEAAE4DAAAHABEAc3RyLmRhdFVUDQAHUMu5VlDLuVZQy7lW
-nZJBS8NAEIXftYL/IeSUQg9W6Uk8CC3ozYPgUWKTmkCSliZaRfrf/Wbrpiltxcqys5PZ9+bt
-zKRWplgLpQpU4uWqdK4zfTnbU0HsU3O9qdEjniFvFPI1x0+wKxihrn/w73rWLaxcr8QN+QKm
-cfiyg8v2cEvnZyC3qBq1RjNuCtaUHAV7qUiXGrEG7XmhfstKQMTuXTHsnDelZPJ1Rh1kTu6A
-yB13tR7gWVUpZ0OtES+5Jz7RB7EQlQA7ZPdZmwy+Tz14VkEFs8Aa1/O2euuTdMeu6tN1Pe+/
-uk90euZ0j6uWMK2vNteI7u9OwE/OclcH5/Y7Y8VLE74yGFc7KPtjqlZ3SI79TIcxm/M47q+Y
-7r3vq9k1+xtQSwECFwsUAAAACAB4WklIavg9xRYBAABOAwAABwAJAAAAAAAAAAAAAIAAAAAA
-c3RyLmRhdFVUBQAHUMu5VlBLBQYAAAAAAQABAD4AAABMAQAAAAA=</Image>
+					<Stereotype name="Assembly" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="14381203" borderwidth="3" hideicon="0">
 						<AppliesTo>
 							<Apply type="PackagingComponent"/>
 						</AppliesTo>
-						<DiagramProperties>
-							<DiagramProperty name="Is Dll" option="" default="0"/>
-							<DiagramProperty name="Is Exe" option="IsExe" default="0"/>
-							<DiagramProperty name="Is WCF Service" option="IsWCF" default="0"/>
-						</DiagramProperties>
 					</Stereotype>
-					<Stereotype name="AsyncFlow" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Flow" baseStereotypes="Flow">
+					<Stereotype name="AsyncFlow" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Flow" baseStereotypes="Flow">
 						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABRMRkiybSjltAEAAMAFAAAHABEAc3RyLmRhdFVUDQAHur21Vrq9tVa6vbVW
 zVTLTsJQED1b/IqGFSQSAYWYGBcYF5hoXOAPlBaQWFrTFvER/91zpi0UEIgujGnuvdOZM69z
 20nwCBfPGMHBjNIUIY7wwXXCx4GPmNoFJdfeXCT0GFFyEBh6RGyIyPQu9RHRl0jpN6ftgtaE
@@ -34,44 +21,19 @@ WbSG1o3DWSP0atqoosxbLAmr7+2nk6JLW3ePrbG0ZrVtZqpYHbu+hn2Tr8CLKd96UddPjLWZ
 Q/x/AVBLAQIXCxQAAAAIABRMRkiybSjltAEAAMAFAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIu
 ZGF0VVQFAAe6vbVWUEsFBgAAAAABAAEAPgAAAOoBAAAAAA==</Image>
 					</Stereotype>
-					<Stereotype name="Client" notes="" cx="90" cy="70" bgcolor="37632" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="Client" notes="" cx="0" cy="0" bgcolor="37632" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Component">
 								<Property name="isIndirectlyInstantiated" value="true"/>
 							</Apply>
 						</AppliesTo>
 					</Stereotype>
-					<Stereotype name="ClientAssembly" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Assembly" baseStereotypes="Assembly">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOZUSUhq+D3FFgEAAE4DAAAHABEAc3RyLmRhdFVUDQAHx8G5VsfBuVbHwblW
-nZJBS8NAEIXftYL/IeSUQg9W6Uk8CC3ozYPgUWKTmkCSliZaRfrf/Wbrpiltxcqys5PZ9+bt
-zKRWplgLpQpU4uWqdK4zfTnbU0HsU3O9qdEjniFvFPI1x0+wKxihrn/w73rWLaxcr8QN+QKm
-cfiyg8v2cEvnZyC3qBq1RjNuCtaUHAV7qUiXGrEG7XmhfstKQMTuXTHsnDelZPJ1Rh1kTu6A
-yB13tR7gWVUpZ0OtES+5Jz7RB7EQlQA7ZPdZmwy+Tz14VkEFs8Aa1/O2euuTdMeu6tN1Pe+/
-uk90euZ0j6uWMK2vNteI7u9OwE/OclcH5/Y7Y8VLE74yGFc7KPtjqlZ3SI79TIcxm/M47q+Y
-7r3vq9k1+xtQSwECFwsUAAAACADmVElIavg9xRYBAABOAwAABwAJAAAAAAAAAAAAAIAAAAAA
-c3RyLmRhdFVUBQAHx8G5VlBLBQYAAAAAAQABAD4AAABMAQAAAAA=</Image>
-					</Stereotype>
-					<Stereotype name="ClientLifeline" notes="" cx="90" cy="70" bgcolor="37632" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="ClientLifeline" notes="" cx="0" cy="0" bgcolor="37632" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Lifeline"/>
 						</AppliesTo>
 					</Stereotype>
-					<Stereotype name="Contains" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMgxSUgyvNJhIQEAANYCAAAHABEAc3RyLmRhdFVUDQAHrIO5VqyDuVasg7lW
-lZLNTsMwEITnSp/C4gQSiB+JXhAHEIce4MQTpE2giPygxAUhxLvz7VouoYBQZTnZ7MyOd8cZ
-tFShZ1UKaoge1Wqid/YRK6hUT/aVqPCvQgMVFVFQ7ewKbqvO8wX5DvaFInUrsHPQgXf0M1ot
-wGt2rz0d68D3qc401f6Im5UH4je+Kti7utal7jQjStwGnRfnd2u1hOT6hJyQH6Mz0BL0hn7n
-vGtXv/Vs6addURe9uhmx8rkTffgzTZy8G+CumGrhfph/PzmRqNeD9/WXx60/e5b5aE6bp5aL
-rmCZ70pB5muJmtUYYnvucwRuwthfd2EdpWq7EeMumX5bP6dg+cZ+ww7XaOpt86Qd78Nq7qmu
-Wf/9F5lnDpU+g037hMamtvn+CVBLAQIXCxQAAAAIAMgxSUgyvNJhIQEAANYCAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAesg7lWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="DataContract" notes="" cx="90" cy="70" bgcolor="12648352" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="DataContract" notes="" cx="0" cy="0" bgcolor="13959039" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Class">
 								<Property name="isActive" value=""/>
@@ -81,36 +43,42 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAesg7lWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 							<Tag name="Attribute" type="string" description="" unit="" values="" default="[DataContract()]"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="DataContractEnum" notes="" cx="90" cy="70" bgcolor="14941672" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="DataContractEnum" notes="" cx="0" cy="0" bgcolor="13959039" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Enumeration"/>
 						</AppliesTo>
 						<TaggedValues>
-							<Tag name="Attribute" type="string" description="" unit="" values="" default="[DataContract]"/>
+							<Tag name="Attribute" type="string" description="" unit="" values="" default="[DataContract()];"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="DataMember" notes="" cx="90" cy="70" bgcolor="12648352" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="DataMember" notes="" cx="0" cy="0" bgcolor="13688896" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 						<AppliesTo>
-							<Apply type="Property">
+							<Apply type="Part">
 								<Property name="isReference" value="false"/>
+							</Apply>
+							<Apply type="Operation">
+								<Property name="isOrdered" value=""/>
+								<Property name="isQuery" value="false"/>
+								<Property name="isUnique" value=""/>
+								<Property name="lower" value=""/>
+								<Property name="upper" value=""/>
 							</Apply>
 						</AppliesTo>
 						<TaggedValues>
-							<Tag name="Attribute" type="String" description="" unit="" values="" default="[DataMember]"/>
+							<Tag name="Attribute" type="string" description="" unit="" values="" default="[DataMember]"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="Engine" notes="" cx="90" cy="70" bgcolor="65535" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
-					<Stereotype name="EngineAssembly" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Assembly" baseStereotypes="Assembly"/>
-					<Stereotype name="EngineLifeline" notes="" cx="90" cy="70" bgcolor="65535" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
-					<Stereotype name="EnumMember" notes="" cx="90" cy="70" bgcolor="14941672" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="Engine" notes="" cx="0" cy="0" bgcolor="65535" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
+					<Stereotype name="EngineLifeline" notes="" cx="0" cy="0" bgcolor="65535" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
+					<Stereotype name="EnumMember" notes="" cx="0" cy="0" bgcolor="13688896" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Attribute"/>
 						</AppliesTo>
 						<TaggedValues>
-							<Tag name="Attribute" type="String" description="" unit="" values="" default="[EnumMember]"/>
+							<Tag name="Attribute" type="string" description="" unit="" values="" default="[EnumMember]"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="Flow" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+					<Stereotype name="Flow" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Association">
 								<Property name="compositionKind" value="none"/>
@@ -119,14 +87,13 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAesg7lWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 						</AppliesTo>
 						<TaggedValues>
 							<Tag name="_bezier" type="int" description="" unit="" values="" default="0"/>
-							<Tag name="Authentication" type="int" description="" unit="" values="" default="0"/>
 							<Tag name="Authorization" type="int" description="" unit="" values="" default="0"/>
+							<Tag name="Authentication" type="int" description="" unit="" values="" default="0"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="Manager" notes="" cx="90" cy="70" bgcolor="55295" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
-					<Stereotype name="ManagerAssembly" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Assembly" baseStereotypes="Assembly"/>
-					<Stereotype name="ManagerLifeline" notes="" cx="90" cy="70" bgcolor="55295" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
-					<Stereotype name="OperationContract" notes="" cx="90" cy="70" bgcolor="12121344" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="Manager" notes="" cx="0" cy="0" bgcolor="55295" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
+					<Stereotype name="ManagerLifeline" notes="" cx="0" cy="0" bgcolor="55295" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
+					<Stereotype name="OperationContract" notes="" cx="0" cy="0" bgcolor="13688896" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Operation">
 								<Property name="isOrdered" value=""/>
@@ -140,19 +107,18 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAesg7lWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 							<Tag name="Attribute" type="string" description="" unit="" values="" default="[OperationContract()]"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="Resource" notes="" cx="90" cy="70" bgcolor="16763904" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
-					<Stereotype name="ResourceAccess" notes="" cx="90" cy="70" bgcolor="12632256" fontcolor="-1" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
-					<Stereotype name="ResourceAccessAssembly" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Assembly" baseStereotypes="Assembly"/>
-					<Stereotype name="ResourceAccessLifeline" notes="" cx="90" cy="70" bgcolor="12632256" fontcolor="-1" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
-					<Stereotype name="ResourceLifeline" notes="" cx="90" cy="70" bgcolor="16763904" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
-					<Stereotype name="Service" notes="" cx="90" cy="70" bgcolor="12614523" fontcolor="-1" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="Resource" notes="" cx="0" cy="0" bgcolor="16763904" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
+					<Stereotype name="ResourceAccess" notes="" cx="0" cy="0" bgcolor="6710886" fontcolor="16777215" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
+					<Stereotype name="ResourceAccessLifeline" notes="" cx="0" cy="0" bgcolor="6710886" fontcolor="16777215" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
+					<Stereotype name="ResourceLifeline" notes="" cx="0" cy="0" bgcolor="16763904" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
+					<Stereotype name="Service" notes="" cx="0" cy="0" bgcolor="8388736" fontcolor="16777215" bordercolor="0" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Component">
 								<Property name="isIndirectlyInstantiated" value="true"/>
 							</Apply>
 						</AppliesTo>
 					</Stereotype>
-					<Stereotype name="ServiceContract" notes="" cx="90" cy="70" bgcolor="12648192" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+					<Stereotype name="ServiceContract" notes="" cx="0" cy="0" bgcolor="12648192" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Interface"/>
 						</AppliesTo>
@@ -160,12 +126,12 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAesg7lWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 							<Tag name="Attribute" type="string" description="" unit="" values="" default="[ServiceContract()]"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="ServiceLifeline" notes="" cx="90" cy="70" bgcolor="12614523" fontcolor="-1" bordercolor="0" borderwidth="1" hideicon="0">
+					<Stereotype name="ServiceLifeline" notes="" cx="0" cy="0" bgcolor="8388736" fontcolor="16777215" bordercolor="0" borderwidth="1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Lifeline"/>
 						</AppliesTo>
 					</Stereotype>
-					<Stereotype name="SyncFlow" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Flow" baseStereotypes="Flow">
+					<Stereotype name="SyncFlow" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Flow" baseStereotypes="Flow">
 						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANpJRkjGFrpJpgEAAKoFAAAHABEAc3RyLmRhdFVUDQAHZbm1VmW5tVZlubVW
 zVRNT8JQEJwr/IoXTphIFBQuxoPGAyYYD/oHSluQWIppi/gR/7sz2xYKBFEPxjTv9XV3dnZ3
 HmyKB3h4QgiHKU8TxKjjneuIj0OAhNYFT559eUgZEfLkEBk6JDbGzOwe7TOiz5Exbk7fGb0p
@@ -178,9 +144,8 @@ j5ZKwur39tNJ0aOv94WvtfTmtW1mqlkdu34Nm/OuxEidwOpXp4+M3+SV5p9QSwECFwsUAAAA
 CADaSUZIxha6SaYBAACqBQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHZbm1VlBL
 BQYAAAAAAQABAD4AAADcAQAAAAA=</Image>
 					</Stereotype>
-					<Stereotype name="Utility" notes="" cx="90" cy="70" bgcolor="12583167" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0"/>
-					<Stereotype name="UtilityAssembly" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Assembly" baseStereotypes="Assembly"/>
-					<Stereotype name="UtilityLifeline" notes="" cx="90" cy="70" bgcolor="12583167" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
+					<Stereotype name="Utility" notes="" cx="0" cy="0" bgcolor="12583167" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="Service" baseStereotypes="Service"/>
+					<Stereotype name="UtilityLifeline" notes="" cx="0" cy="0" bgcolor="12583167" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0" generalizes="ServiceLifeline" baseStereotypes="ServiceLifeline"/>
 				</Stereotypes>
 				<TaggedValueTypes/>
 			</Content>
@@ -189,22 +154,22 @@ BQYAAAAAAQABAD4AAADcAQAAAAA=</Image>
 			<Documentation id="2C7B31C6-2" name="TheMethod" version="1.0" notes="TheMethod"/>
 			<Content>
 				<Stereotypes>
-					<Stereotype name="IDesignMethodArchitecture" alias="Architecture" notes="Component Diagram for service architectures using the IDesgin Method(tm)" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+					<Stereotype name="IDesignMethodArchitecture" alias="Architecture" notes="Component Diagram for service architectures using the IDesign Method(tm)" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Diagram_Component">
 								<Property name="alias" value="Architecture"/>
-								<Property name="diagramID" value="IDesignMethodAchitecutre"/>
+								<Property name="diagramID" value="IDesignMethodArchitecture"/>
+								<Property name="toolbox" value="IDesignMethodArchitecture"/>
 								<Property name="swimlanes" value="Lanes=4;Orientation=Horizontal;Lane1=Client;Lane2=Business;Lane3=ResourceAccess;Lane4=Resource;"/>
-								<Property name="toolbox" value="TheMethod"/>
 							</Apply>
 						</AppliesTo>
 					</Stereotype>
-					<Stereotype name="IDesignMethodInteraction" notes="Interaction Diagram for modeling service architectures using the IDesign Method(TM)" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+					<Stereotype name="IDesignMethodInteraction" notes="Interaction Diagram for modeling service architectures using the IDesign Method(TM)" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Diagram_Sequence">
 								<Property name="alias" value="Sequence"/>
 								<Property name="diagramID" value="IDesignMethodInteraction"/>
-								<Property name="toolbox" value="TheMethod"/>
+								<Property name="toolbox" value="IDesignMethodInteraction"/>
 							</Apply>
 						</AppliesTo>
 					</Stereotype>
@@ -230,6 +195,7 @@ BQYAAAAAAQABAD4AAADcAQAAAAA=</Image>
 							<Tag name="TheMethod::Service(UML::Component)" type="int" description="" unit="" values="" default="Service"/>
 							<Tag name="TheMethod::SyncFlow(UML::Association)" type="int" description="" unit="" values="" default="SyncFlow"/>
 							<Tag name="TheMethod::AsyncFlow(UML::Association)" type="int" description="" unit="" values="" default="AsyncFlow"/>
+							<Tag name="TheMethod::Assembly(UML::PackagingComponent)" type="int" description="" unit="" values="" default="Assembly"/>
 						</TaggedValues>
 					</Stereotype>
 					<Stereotype name="IDesignMethodInteraction" notes="Alias=Interactions; Notes=Elements for Interaction Diagrams using the IDesign Method (TM) for designing service architectures." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -253,7 +219,7 @@ BQYAAAAAAQABAD4AAADcAQAAAAA=</Image>
 						<TaggedValues>
 							<Tag name="TheMethod::ServiceContract(UML::Interface)" type="int" description="" unit="" values="" default="ServiceContract"/>
 							<Tag name="TheMethod::DataContract(UML::Class)" type="int" description="" unit="" values="" default="DataContract"/>
-							<Tag name="TheMethod::OperationContract(UML::Operation)" type="int" description="" unit="" values="" default="OperationContract"/>
+							<Tag name="TheMethod::DataContractEnum(UML::Enumeration)" type="int" description="" unit="" values="" default="DataContractEnum"/>
 						</TaggedValues>
 					</Stereotype>
 				</Stereotypes>
